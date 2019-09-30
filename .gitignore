@@ -1,0 +1,10 @@
+.*
+Debug/**
+Release/**
+Library/Debug/**
+Library/Release/**
+Parser/Debug/**
+Parser/Release/**
+Test/Debug/**
+Test/Release/**
+!.gitignore

@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Rules">
+      <UniqueIdentifier>{9e6649f1-f10d-48ae-ab7b-4dfe084e9308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Rules\Char">
+      <UniqueIdentifier>{2df1c598-036d-41df-9802-111b53406bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Rules\String">
+      <UniqueIdentifier>{102a7b65-a45a-4278-aa56-8fbc8d3d3512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Rules\Status">
+      <UniqueIdentifier>{f7ecb5cd-4127-44ab-b540-a78a29c8ae1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Rules\Flow">
+      <UniqueIdentifier>{30c39285-6107-4cb9-9e71-9d503d59c0bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Rules\Data">
+      <UniqueIdentifier>{a7cc3334-6cbb-4df5-8d91-75767d431dbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Helpers">
+      <UniqueIdentifier>{a828c470-9119-45bf-8849-e0fc179954c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Strings">
+      <UniqueIdentifier>{47f36c8d-c86f-4d15-905b-1a2ea0511f4e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Context.hpp">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rule.hpp">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Char\Any.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Char\Choice.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Proyth.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Char.h">
+      <Filter>Arquivos de Cabeçalho\Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Char\Expect.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Char\Range.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Char\Digit.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Char\UpperAZ.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Char\LowerAZ.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\String.h">
+      <Filter>Arquivos de Cabeçalho\Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\String\Expect.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\String</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\String\Choice.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\String</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\String\Range.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\String</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\String\LowerAZ.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\String</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\String\UpperAZ.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\String</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\String\Digit.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\String</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Status.h">
+      <Filter>Arquivos de Cabeçalho\Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Status\Success.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Status\Failure.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Flow.h">
+      <Filter>Arquivos de Cabeçalho\Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Flow\Repeat.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Flow\True.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Flow\False.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Flow\Reference.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Flow\Option.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Flow\Condition.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Flow\Any.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Flow\All.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Flow\Not.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Flow\End.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Data.h">
+      <Filter>Arquivos de Cabeçalho\Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Error.hpp">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Node.hpp">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Data\Node.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Data\Tree.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Helpers\Copy.hpp">
+      <Filter>Arquivos de Cabeçalho\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Helpers\NonCopyable.hpp">
+      <Filter>Arquivos de Cabeçalho\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Helpers\Swap.hpp">
+      <Filter>Arquivos de Cabeçalho\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\String\AnyAZ.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\String</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Char\AnyAZ.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Helpers\Forward.hpp">
+      <Filter>Arquivos de Cabeçalho\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vault.hpp">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Data\Extract.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Data\Remark.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Strings\Source.hpp">
+      <Filter>Arquivos de Cabeçalho\Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Strings\View.hpp">
+      <Filter>Arquivos de Cabeçalho\Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Helpers\Compare.hpp">
+      <Filter>Arquivos de Cabeçalho\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rules\Data\Match.hpp">
+      <Filter>Arquivos de Cabeçalho\Rules\Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
